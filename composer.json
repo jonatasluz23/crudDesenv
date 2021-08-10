@@ -1,0 +1,27 @@
+{
+    "name": "jonatasluz23/cruddesenv",
+    "description": "CRUD para cadastro de desenvolvedores",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jônatas Luz",
+            "email": "jonatasmluz@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "slim/slim": "3.*"
+    }
+}
