@@ -1,9 +1,8 @@
-# cliente
-Cadastro/Consulta de clientes simples em PHP
+# desenvolvedor
+Cadastro/Consulta de desenvolvedores simples em PHP
 
 - Utilizado no projeto o Slim Framework para gerenciamento de Rotas.
-- Utilizado a integração com a API do https://viacep.com.br/, a integração é
-ativada no campo CEP ao remover o foco do mesmo.
+
 
 Algumas Observações:
 - O script de criação do banco de dados Mysql, está no arquivo database.sql na raiz do projeto!
